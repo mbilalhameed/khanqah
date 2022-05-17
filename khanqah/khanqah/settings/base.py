@@ -128,6 +128,8 @@ MEDIA_ROOT = BASE_DIR / "mediafiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+AUTH_USER_MODEL = 'users.User'
+
 import logging
 import logging.config
 
@@ -157,7 +159,7 @@ logging.config.dictConfig({
             "level": "INFO",
             "class": "logging.FileHandler",
             "formatter": "file",
-            "filename": "logs/khanqah_pakistan.log",
+            "filename": "logs/khanqah.log",
         },
         "django.server": DEFAULT_LOGGING["handlers"]["django.server"],
     },
