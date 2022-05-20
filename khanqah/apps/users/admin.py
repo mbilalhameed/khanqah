@@ -23,7 +23,7 @@ class UserAdmin(BaseUserAdmin):
         ),
         (
           _("Personal Information"), {
-              "fields": ("username", "first_name", "last_ name",)
+              "fields": ("username", "first_name", "last_name",)
           },
         ),
         (

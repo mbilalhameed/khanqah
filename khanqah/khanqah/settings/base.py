@@ -32,7 +32,7 @@ DJANGO_APPS = [
 
 ]
 
-site_id = 1
+SITE_ID = 1
 
 THIRD_PARTY_APPS = [
     'rest_framework',
