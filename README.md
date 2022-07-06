@@ -71,3 +71,7 @@ Therefor we implement a sudo primary key.
 
 -use signals to ensure whenever a user is created a relevent profile is also created.
 --create signals.py in apps>profile
+
+-Created profiles, and profile ratings.
+
+-for token based auth use djoser
