@@ -38,7 +38,7 @@ def create_agent_review(request, profile_id):
         agent_profile.num_reviews = len(reviews)
 
         total = 0
-        for i in review:
-            pass
+        for i in reviews:
+            total += i.rating
 
-
+        return Response("Review Added")
